@@ -23,7 +23,7 @@ class Header extends React.Component {
     return (
       <Container>
         <Wrapper>
-          <Title w="522" h="188">
+          <Title>
             Make learning fun!
           </Title>
           <Text>
