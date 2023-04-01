@@ -1,0 +1,11 @@
+.footer-container {
+    max-width: 1550px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(0deg, #0C1218, #0C1218)
+}
+
+.footer-logo{
+  color: white;
+}
