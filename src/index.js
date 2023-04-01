@@ -11,14 +11,14 @@ import SignUp from './components/SignUp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>
+    <>
       <Navbar />
       <Header />
       <Card />
       <Pages />
       <SignUp />
       {/* <Footer /> */}
-    </h1>
+    </>
   </React.StrictMode>
 );
 

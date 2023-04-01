@@ -10,12 +10,12 @@ export const navLink = [
 ]
 
 export const card = [
-    { id: 1, title: "Enjoy Beauty place in Bali City", day: "  10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
-    { id: 2, title: "Enjoy Beauty place in Rom City", day: "  10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
-    { id: 3, title: "Enjoy Beauty place japan City", day: "  10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
-    { id: 4, title: "Enjoy Beauty place japan City", day: "  10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
-    { id: 5, title: "Enjoy Beauty place Paris City", day: "  10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
-    { id: 6, title: "Enjoy Beauty place in Bali City", day: "  10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
+    { id: 1, title: "Enjoy Beauty place in Bali City", day: "10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
+    { id: 2, title: "Enjoy Beauty place in Rom City", day: "10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
+    { id: 3, title: "Enjoy Beauty place Japan City", day: "10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
+    { id: 4, title: "Enjoy Beauty place Japan City", day: "10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
+    { id: 5, title: "Enjoy Beauty place Paris City", day: "10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
+    { id: 6, title: "Enjoy Beauty place in Bali City", day: "10 Day’s", person: "8 person", rating: "4.8", reveiw: "(2.5k Review)", location: "Bali, indonesha", price: "$1200" },
 ]
 
 export const pages = [
