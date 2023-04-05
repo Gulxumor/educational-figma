@@ -8,10 +8,14 @@
 }
 
 :root {
-    --violet: #6347F9;
-    --blue: #22283C;
-    --black: #0C1218;
-    --white: #fff;
-    --gray: #9DA1B4;
-    --imageColor:aliceblue;
+    --white: rgb(239, 232, 232);
+    --orange: rgb(251, 119, 75);
+    --black: rgb(51, 51, 51);
+    --gray: rgb(97, 99, 101);
+}
+
+body {
+    max-width: 1550px;
+    width: 100%;
+    margin: 0 auto;
 }
