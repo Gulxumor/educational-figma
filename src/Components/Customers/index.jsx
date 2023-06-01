@@ -1,3 +1,4 @@
+import { useTranslation } from "react-query";
 import Slider from "react-slick";
 import { Container } from "./style";
 import { carousel } from "../../utils/carousel";
@@ -11,9 +12,12 @@ const Customers = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+  const { t } = useTranslation();
+
   return (
     <Container>
-      <Container.Title t>Our best customers</Container.Title>
+      <Container.Title t>{t("best")}</Container.Title>
       <Container.Hr h />
       <Slider {...settings}>
         {carousel.map(({ id, image, title, girl, text, desc }) => (

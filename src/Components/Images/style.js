@@ -14,14 +14,12 @@ display: flex;
 justify-content: center;
 margin-bottom: 30px;
 gap: ${({ g }) => g ? "0px" : "100px"};
-
 `
 Container.Wrapper = styled.div`
 display: flex;
 justify-content: center;
 flex-direction: column;
 `
-
 Container.Image = styled.img`
 width: ${({ w }) => w ? "600px" : "516px"};
 `

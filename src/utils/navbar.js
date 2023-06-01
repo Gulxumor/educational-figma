@@ -1,12 +1,12 @@
-import Main from "../Components/Main";
-import Header from "../Components/Header/";
-import Navbar from "../Components/Navbar/";
-import Section from "../Components/Section/";
-import Yellow from "../Components/Yellow/";
-import Images from "../Components/Images/";
-import Customers from "../Components/Customers/";
-import Ready from "../Components/Ready/";
-import Footer from "../Components/Footer";
+import Main from "../components/Main";
+import Header from "../components/Header/";
+import Navbar from "../components/Navbar/";
+import Section from "../components/Section/";
+import Yellow from "../components/Yellow/";
+import Images from "../components/Images/";
+import Customers from "../components/Customers/";
+import Ready from "../components/Ready/";
+import Footer from "../components/Footer";
 
 export const navbar = [
     { id: 1, element: < Navbar /> },

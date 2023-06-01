@@ -1,6 +1,9 @@
 import { Button, Image, Nav, Select, Wrapper } from "./style";
+import { useTranslation } from "react-query";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
   return (
     <Nav>
       <Wrapper nav>
@@ -15,8 +18,8 @@ const Navbar = () => {
           <option value="rus">RUS</option>
         </Select>
 
-        <Button>Sign Up</Button>
-        <Button bc>Login</Button>
+        <Button>{t("nav.sign_up")}</Button>
+        <Button bc>{t("nav.login")}</Button>
         <Image.Burger />
       </Wrapper>
     </Nav>
