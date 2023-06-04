@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { months, days } from "../../utils/mock";
+import { months, days } from "../utils/mock";
 const api = {
   key: "3b3d66e6fd0fafb2fe923421ca903742",
   baseUrl: "https://api.openweathermap.org/data/2.5/",
