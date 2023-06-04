@@ -13,10 +13,11 @@
   --grey: rgba(255, 255, 255, .75);
   --blue: rgba(50, 50, 70, .5);
 }
+
 body {
   font-family: 'Cherry Bomb One', cursive;
 }
-  
+
 .app {
   background-image: url("./assets//images/warm.jpg");
   background-size: cover;
