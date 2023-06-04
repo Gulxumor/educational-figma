@@ -1,5 +1,12 @@
-import React from "react";
-import { Column, Container, Logo, NavItems, Search, Wrapper } from "../style";
+import {
+  Column,
+  Container,
+  Logo,
+  NavItems,
+  Notification,
+  Search,
+  Wrapper,
+} from "../style";
 
 const Navbar = () => {
   return (

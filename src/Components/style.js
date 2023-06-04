@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { ReactComponent as logo } from '../Assets/icons/logo.svg';
-import { ReactComponent as search } from '../Assets/icons/search.svg';
-import { ReactComponent as notification } from '../Assets/icons/notification.svg';
+import { ReactComponent as logo } from '../assets/icons/logo.svg';
+import { ReactComponent as search } from '../assets/icons/search.svg';
+import { ReactComponent as notification } from '../assets/icons/notification.svg';
 const Logo = styled(logo)``
 const Search = styled(search)``
 const Notification = styled(notification)``

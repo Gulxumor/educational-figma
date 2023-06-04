@@ -8,11 +8,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* font-family: */
+
 :root {
   --font-family: 'Outfit', sans-serif;
   --white: #fff;
-    --pink: #FA4776;
+  --pink: #FA4776;
 }
 
 body {
@@ -24,19 +24,19 @@ h1,
   font-family: 'Oswald', 'sans-serif';
   font-style: normal;
   font-weight: 700;
-    font-size: 90px;
-    line-height: 133px;
-  color: #FFFFFF;
-  border: 0.5px solid #FFFFFF;
+  font-size: 90px;
+  line-height: 133px;
+  color: var(--white);
+  border: 0.5px solid var(--white);
 }
 
 .nav-link {
   font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
   color: var(--white)
 }
 
@@ -67,11 +67,9 @@ h3,
   font-weight: 700;
   font-size: 50px;
   line-height: 74px;
-  /* identical to box height */
-
-
-  color: #FFFFFF;
+  color: var(--white);
 }
+
 /* slider */
 /* .slick-arrow:active {
   transform: scale(1) !important;

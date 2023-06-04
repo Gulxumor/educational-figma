@@ -1,5 +1,4 @@
-import React from "react";
-import Home from "../Pages/home";
+import Home from "../Pages/Home";
 
 const Root = () => {
   return <Home />;
