@@ -22,20 +22,20 @@ const Hero = () => {
         <Rate allowHalf defaultValue={4} />
         <Wrapper.Div>
           <Wrapper.Btn1>
-            <img src={pause} alt="" /> Watch Now
+            <img src={pause} alt="pause" /> Watch Now
           </Wrapper.Btn1>
           <Wrapper.Btn t={true}>Trailer</Wrapper.Btn>
         </Wrapper.Div>
 
         <Wrapper.Movies>Popular Movies</Wrapper.Movies>
-        <div>
-          <img src={avangers} alt="" />
-          <img src={star_wars} alt="" />
-          <img src={captian} alt="" />
-          <img src={uncharted} alt="" />
-          <img src={star_wars2} alt="" />
-          <img src={spiter} alt="" />
-        </div>
+        <Wrapper.ImgWrapper>
+          <Wrapper.Img src={avangers} alt="avangers" />
+          <Wrapper.Img src={star_wars} alt="star_wars" />
+          <Wrapper.Img src={captian} alt="captian" />
+          <Wrapper.Img src={uncharted} alt="uncharted" />
+          <Wrapper.Img src={star_wars2} alt="star_wars2" />
+          <Wrapper.Img src={spiter} alt="spiter" />
+        </Wrapper.ImgWrapper>
       </Wrapper>
     </Container>
   );

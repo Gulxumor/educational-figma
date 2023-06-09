@@ -1,6 +1,6 @@
 {
-  "short_name": "Movie App",
-  "name": "Create Movie App Sample",
+  "short_name": "To Do List App",
+  "name": "Create To Do List App Sample",
   "icons": [
     {
       "src": "logo.svg",
@@ -14,7 +14,8 @@
     },
     {
       "src": "logo.svg",
-      "type": "image/svg"
+      "type": "image/svg",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
