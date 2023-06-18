@@ -3,7 +3,7 @@ import App from "../components/App";
 const Root = () => {
   return (
     <div>
-      <App />>
+      <App />
     </div>
   );
 };
