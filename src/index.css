@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,9 +6,8 @@
 }
 
 body {
-  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+  font-family: "Outfit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+      "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -19,15 +18,15 @@ p {
 
 h1 {
   font-size: 6rem;
-  }
-  
-  .app {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #fff;
-      background: url('./images/sunset.jpg')no-repeat center center/cover;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  background: url("./images/sunset.jpg") no-repeat center center/cover;
 }
 
 .cold {
@@ -45,14 +44,14 @@ h1 {
 
 input {
   margin-top: 50px;
-  padding: .7rem 2rem;
+  padding: 0.7rem 2rem;
   font-size: 1.2rem;
   border-radius: 16px 0 16px 0;
   border: none;
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.8);
-    color: #f8f8f8;
-    transition: .5s ease;
+  color: #f8f8f8;
+  transition: 0.5s ease;
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -100,7 +99,7 @@ input:focus {
 .app .bottom {
   display: flex;
   justify-content: space-evenly;
-    text-align: center;
+  text-align: center;
     width: 100%;
     margin: 1rem auto;
     padding: 1rem;
@@ -110,4 +109,8 @@ input:focus {
 
 .bold {
   font-weight: 700;
+}
+.not-found {
+  font-size: 30px;
+  text-transform: capitalize;
 }
