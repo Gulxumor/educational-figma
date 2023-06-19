@@ -1,0 +1,135 @@
+$wheat: #fffefc;
+$orange: #ff9401;
+$blue: #232323;
+$background: linear-gradient(180deg,
+        rgba(255, 148, 1, 0.05) 0%,
+        rgba(255, 237, 211, 0) 100%);
+
+
+@mixin common {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gilroy';
+    background-color: $wheat;
+}
+
+/*//* ==============================  Navbar  ===============================*/
+
+.wrapper {
+    @include common();
+    @include flex();
+    justify-content: space-between;
+    padding: 0 100px 20px;
+}
+
+.nav__inner {
+    display: flex;
+    gap: 80px;
+}
+
+.nav__img {
+    cursor: pointer;
+}
+
+/*//* ==============================  Hero section  ===============================*/
+
+.hero {
+    margin-top: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn {
+    margin: 20px 0 70px;
+    width: 243px;
+    height: 62px;
+    background: $orange;
+    border-radius: 31px;
+    @include flex();
+    justify-content: center;
+    color: white;
+
+    &:hover {
+        opacity: .7;
+    }
+
+    &:active {
+        transition: .2s all ease;
+        transform: scale(.95);
+    }
+}
+
+.social {
+    width: 165px;
+    @include flex();
+    gap: 48px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    color: $orange;
+}
+
+.food {
+    font-weight: 800;
+    font-size: 96px;
+    color: $blue;
+    width: 550px;
+
+    img {
+        width: 62px;
+        height: 62px;
+    }
+}
+
+.mood img {
+    width: 52px;
+    height: 52px;
+}
+
+.ml {
+    margin-left: 4px;
+}
+
+.desc {
+    height: 71px;
+    width: 497px;
+}
+
+.right {
+    position: absolute;
+    width: 850px;
+    height: 594px;
+    left: 822px;
+    top: 188px;
+}
