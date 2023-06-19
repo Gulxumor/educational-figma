@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gilroy";
+  background-color: #fffefc;
+}
+
+/*//* ==============================  Navbar  ===============================*/
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0 100px 20px;
+}
+
+.nav__inner {
+  display: flex;
+  gap: 80px;
+}
+
+.nav__img {
+  cursor: pointer;
+}
+
+/*//* ==============================  Hero section  ===============================*/
+.hero {
+  margin-top: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.btn {
+  margin: 20px 0 70px;
+  width: 243px;
+  height: 62px;
+  background: #ff9401;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  color: white;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.btn:active {
+  transition: 0.2s all ease;
+  transform: scale(0.95);
+}
+
+.social {
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.social img {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #ff9401;
+}
+
+.food {
+  font-weight: 800;
+  font-size: 96px;
+  color: #232323;
+  width: 550px;
+}
+.food img {
+  width: 62px;
+  height: 62px;
+}
+
+.mood img {
+  width: 52px;
+  height: 52px;
+}
+
+.ml {
+  margin-left: 4px;
+}
+
+.desc {
+  height: 71px;
+  width: 497px;
+}
+
+.right {
+  position: absolute;
+  width: 850px;
+  height: 594px;
+  left: 822px;
+  top: 188px;
+}/*# sourceMappingURL=index.css.map */

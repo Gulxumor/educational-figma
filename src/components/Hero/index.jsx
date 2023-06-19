@@ -1,43 +1,68 @@
-import { Container, Wrapper } from "./style";
-import { Rate } from "antd";
-import avangers from "./../../assets/images/avengers.png";
-import spiter from "./../../assets/images/spiter-man.png";
-import star_wars from "./../../assets/images/star_wars.png";
-import star_wars2 from "./../../assets/images/star_wars2.png";
-import uncharted from "./../../assets/images/uncharted.png";
-import captian from "./../../assets/images/captian_america.png";
-import pause from ".././../assets/icons/pause.svg";
+import food1 from "../../assets/images/hero_food_o-1.png";
+// import food2 from "../../assets/images/hero_food_o-2.png";
+import smile from "../../assets/images/hero_mood.png";
+import hero_img from "../../assets/images/hero_img.png";
+import facebook from "../../assets/icons/facebook.svg";
+import twitter from "../../assets/icons/twitter.svg";
+import instagram from "../../assets/icons/instagram.svg";
 
 const Hero = () => {
   return (
-    <Container>
-      <Wrapper>
-        <Wrapper.Title>STAR WARS</Wrapper.Title>
-        <Wrapper.Text>THE RISE OF SKYWALKER</Wrapper.Text>
-        <Wrapper.Subtitle>
-          The surviving members of the resistance face the First Order once
-          again, and the legendary conflict between the Jedi and the Sith
-          reaches its peak bringing the Skywalker saga to its end.
-        </Wrapper.Subtitle>
-        <Rate allowHalf defaultValue={4} />
-        <Wrapper.Div>
-          <Wrapper.Btn1>
-            <img src={pause} alt="pause" /> Watch Now
-          </Wrapper.Btn1>
-          <Wrapper.Btn t={true}>Trailer</Wrapper.Btn>
-        </Wrapper.Div>
+    <div className="wrapper hero">
+      <div className="left">
+        <h3 className="title">__Restaurant</h3>
+        <div className="food">
+          Good F
+          <span>
+            <img src={food1} alt="food" />
+          </span>
+          <span>
+            <img src={food1} alt="food" />
+          </span>
+          d
+        </div>
 
-        <Wrapper.Movies>Popular Movies</Wrapper.Movies>
-        <Wrapper.ImgWrapper>
-          <Wrapper.Img src={avangers} alt="avangers" />
-          <Wrapper.Img src={star_wars} alt="star_wars" />
-          <Wrapper.Img src={captian} alt="captian" />
-          <Wrapper.Img src={uncharted} alt="uncharted" />
-          <Wrapper.Img src={star_wars2} alt="star_wars2" />
-          <Wrapper.Img src={spiter} alt="spiter" />
-        </Wrapper.ImgWrapper>
-      </Wrapper>
-    </Container>
+        <div className="food mood">
+          Good M
+          <span>
+            <img src={smile} alt="food" />
+          </span>
+          <span>
+            <img className="ml" src={smile} alt="food" />
+          </span>
+          d
+        </div>
+
+        <div className="desc">
+          The food palace is an neighborhood restaurent serving seasonal global
+          cuisine driven by the faire.
+        </div>
+
+        <div className="btn">Explore food menu</div>
+
+        <div className="social">
+          <a
+            href="https://www.facebook.com/"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <img src={facebook} alt="facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <img src={instagram} alt="instagram" />
+          </a>
+          <a href="https://www.twitter.com" target={"_blank"} rel="noreferrer">
+            <img src={twitter} alt="twitter" />
+          </a>
+        </div>
+      </div>
+
+      <img src={hero_img} alt="right_image" className="right" />
+    </div>
   );
 };
 

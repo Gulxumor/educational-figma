@@ -1,27 +1,22 @@
-import logo from "../../assets/icons/logo.svg";
+import logo from "../../assets/images/logo.png";
+import nav_img from "../../assets/images/nav_img.png";
+import burger from "../../assets/images/burger.png";
+import search from "../../assets/icons/search.svg"
 import notification from "../../assets/icons/notification.svg";
-import search from "../../assets/icons/search.svg";
-import { Wrapper, Container } from "./style";
 
 const Navbar = () => {
   return (
-    <Container>
-      <Wrapper>
-        <Wrapper.Inner>
-          <Wrapper.Link href="#movies">Movies</Wrapper.Link>
-          <Wrapper.Link href="#shows">TV Shows</Wrapper.Link>
-          <Wrapper.Link href="#docs">Documentaries</Wrapper.Link>
-        </Wrapper.Inner>
-        <div>
-          <img src={logo} alt="logo" />
+    <div>
+      <div className="wrapper">
+        <img src={logo} alt="nav__img" className="nav__img" />
+        <img alt="nav__img" src={nav_img} />
+        <div className="nav__inner">
+          <img alt="nav__img" className="nav__img" src={search} />
+          <img alt="nav__img" className="nav__img" src={notification} />
+          <img alt="nav__img" className="nav__img" src={burger} />
         </div>
-        <Wrapper.Inner>
-          <img src={search} alt="search" />
-          <img src={notification} alt="notification" />
-          <Wrapper.Btn>Sign Up</Wrapper.Btn>
-        </Wrapper.Inner>
-      </Wrapper>
-    </Container>
+      </div>
+    </div>
   );
 };
 
