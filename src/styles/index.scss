@@ -1,67 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600;1,800&display=swap");
+
+$pointer: pointer;
 $wheat: #fffefc;
 $orange: #ff9401;
 $blue: #232323;
 $background: linear-gradient(180deg,
         rgba(255, 148, 1, 0.05) 0%,
-        rgba(255, 237, 211, 0) 100%);
-
+  rgba(255, 237, 211, 0) 100%);
 
 @mixin common {
-    max-width: 1440px;
+max-width: 1440px;
     width: 100%;
     margin: 0 auto;
     display: flex;
 }
 
 @mixin flex {
-    display: flex;
+display: flex;
     align-items: center;
     justify-content: center;
 }
 
+@mixin header {
+    font-weight: 600;
+    font-size: 24px;
+    color: $orange;
+}
 * {
-    margin: 0;
+margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
 body {
-    font-family: 'Gilroy';
+font-family: "Gilroy";
     background-color: $wheat;
 }
 
 /*//* ==============================  Navbar  ===============================*/
 
 .wrapper {
-    @include common();
+@include common();
     @include flex();
     justify-content: space-between;
     padding: 0 100px 20px;
+position: relative;
 }
 
 .nav__inner {
-    display: flex;
+display: flex;
     gap: 80px;
 }
 
 .nav__img {
-    cursor: pointer;
+cursor: $pointer;
 }
 
 /*//* ==============================  Hero section  ===============================*/
 
 .hero {
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 .left {
-    display: flex;
+display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
 .btn {
-    margin: 20px 0 70px;
+margin: 20px 0 70px;
     width: 243px;
     height: 62px;
     background: $orange;
@@ -69,67 +80,113 @@ body {
     @include flex();
     justify-content: center;
     color: white;
+font-size: 20px;
+    cursor: $pointer;
+    border: none;
+    box-shadow: 0px 20px 40px 0px #ff940133;
 
-    &:hover {
-        opacity: .7;
+&:hover {
+    opacity: 0.7;
     }
 
-    &:active {
-        transition: .2s all ease;
-        transform: scale(.95);
+  &:active {
+    transition: 0.2s all ease;
+        transform: scale(0.95);
     }
 }
 
 .social {
-    width: 165px;
+width: 165px;
     @include flex();
     gap: 48px;
     margin-bottom: 100px;
-    cursor: pointer;
+cursor: $pointer;
     margin-left: 10px;
 
-    img {
+img {
         width: 20px;
         height: 20px;
     }
 }
 
 .title {
-    font-weight: 600;
-    font-size: 24px;
-    color: $orange;
+@include header();
 }
 
 .food {
-    font-weight: 800;
+font-weight: 800;
     font-size: 96px;
     color: $blue;
     width: 550px;
 
-    img {
+img {
         width: 62px;
         height: 62px;
     }
 }
 
 .mood img {
-    width: 52px;
+width: 52px;
     height: 52px;
 }
 
 .ml {
-    margin-left: 4px;
+margin-left: 4px;
 }
 
 .desc {
-    height: 71px;
+height: 71px;
     width: 497px;
 }
 
+/*//* ==============================  About section  ===============================*/
 .right {
-    position: absolute;
+position: absolute;
     width: 850px;
     height: 594px;
-    left: 822px;
-    top: 188px;
+left: 600px;
+    top: 5px;
+    margin-left: 124px;
+
+    h2 {
+        height: 30px;
+        width: 99px;
+        margin-top: 142px;
+    }
+}
+
+.about {
+    flex: 1;
+    display: flex;
+    background: $background;
+
+    img {
+        display: flex;
+        padding: 0;
+        height: 618.9556193052885px;
+        width: 758.619182896199px;
+        margin-left: -150px;
+    }
+
+    .btn {
+        margin-left: 150px;
+        margin-top: 40px;
+
+    }
+}
+
+.about_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 150px;
+    width: 426px;
+    height: 294px;
+    top: 1029.998046875px;
+    left: 933.999755859375px;
+
+}
+
+.about_desc {
+    margin-top: 10px;
 }
