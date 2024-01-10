@@ -26,3 +26,6 @@
   --blue: #3a5aff;
   --font: 'Montserrat', sans-serif;
 }
+body {
+  border: 2px solid black;
+}
